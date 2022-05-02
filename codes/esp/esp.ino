@@ -17,12 +17,13 @@ void handleRoot(){  // Page d'accueil La page HTML est mise dans le String page
   String page = "<!DOCTYPE html>";  // Début page HTML
     page += "<head>";
     page += "    <title>Serveur ESP32</title>";
-    page += "    <meta http-equiv='refresh' content='60' name='viewport' content='width=device-width, initial-scale=1' charset='UTF-8'/>";
+    page += "    <meta http-equiv='refresh' content='30' name='viewport' content='width=device-width, initial-scale=1' charset='UTF-8'/>";
     page += "</head>";
     page += "<body lang='fr'>";
     page += "    <h1>Serveur</h1>";
     page += "    <p>Ce serveur est hébergé sur un ESP32</p>";
-    page += "    <i>Créé par Tommy Desrochers</i>";
+    page += random(0, 100);
+    page += "    <i>random(min</i>";
     page += "</body>";
     page += "</html>";  // Fin page HTML
 
