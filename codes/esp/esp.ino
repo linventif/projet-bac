@@ -1,8 +1,8 @@
 #include <WiFi.h>   // Utilisation de la librairie WiFi.h
 #include <WebServer.h>   // Utilisation de la librairie WebServer.h
 
-const char* ssid = "ecreall_wifi";  // Mettre le ssid de votre réseau Wifi
-const char* password = "L3r345w1f1d3sL45n47";   // Mettre le mot de passe de votre réseau Wifi
+const char* ssid = "POCEKI";  // Mettre le ssid de votre réseau Wifi
+const char* password = "21436587";   // Mettre le mot de passe de votre réseau Wifi
 WebServer server(80);  // Permet l'affichage de la page d'accueil 
 
 void handleRoot(){  // Page d'accueil La page HTML est mise dans le String page
