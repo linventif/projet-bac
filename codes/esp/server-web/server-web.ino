@@ -1,7 +1,7 @@
 #include <WiFi.h>   // Utilisation de la librairie WiFi.h
 #include <WebServer.h>   // Utilisation de la librairie WebServer.h
 
-const char* ssid = "POCEKI";  // Mettre le ssid de votre réseau Wifi
+const char* ssid = "GVOYE";  // Mettre le ssid de votre réseau Wifi
 const char* password = "21436587";   // Mettre le mot de passe de votre réseau Wifi
 WebServer server(80);  // Permet l'affichage de la page d'accueil 
 
