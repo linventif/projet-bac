@@ -4,6 +4,8 @@ body {
     font-family: Calibri;
     display: flex;
     margin: 0%;
+    height: 100vh;
+    width: 100vmax;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - */
@@ -12,7 +14,6 @@ body {
     background-color:#414a59;
     width: 240px;
     min-width: 240px;
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -46,6 +47,19 @@ body {
 
 /* - - - - - - - - - - - - - - - - - - - - */
 
+#body div {
+    background-color:#414a59;
+    display: flex;
+    justify-content: space-around;   
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+
+#body {
+    width: 100%;
+}
+/* - - - - - - - - - - - - - - - - - - - - 
+
 #horizontal_nav {
     background-color:#414a59;
     display: flex;
@@ -53,25 +67,26 @@ body {
     border-radius: 10px;
 }
 
+#culture_info {
+    background-color: #8b70d7;
+    height: auto;
+}
+
 #bacs {
     display: flex;
     justify-content: space-between;
 }
 
-/* - - - - - - - - - - - - - - - - - - - - */
-
 #data {
-    height: 100vh;
-    max-height: 100vh;
     width: 85%;
     margin-left: 2em;
+    background-color: #63c7bb;
 }
 
 #content {
     padding-top: 2em;
 }
 
-/* - - - - - - - - - - - - - - - - - - - - */
 
 #info {
     display: flex;
@@ -107,5 +122,7 @@ body {
 #bottom {
     border-radius: 0px 0px 10px 10px;
     background-color:#414a59;
-    height: 700px;
+    height: 650px;
 }
+
+*/
