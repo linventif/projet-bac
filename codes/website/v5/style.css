@@ -37,7 +37,7 @@ body {
     color: white;
 }
 
-.button {    
+.button {
     padding-left: 2.5em;
 }
 
@@ -47,17 +47,28 @@ body {
 
 /* - - - - - - - - - - - - - - - - - - - - */
 
-#body div {
+#bar_info {
     background-color:#414a59;
     display: flex;
     justify-content: space-around;   
-    padding-left: 2.5em;
-    padding-right: 2.5em;
+}
+
+#bar_info h1{
+    margin-left: 2.5em;
 }
 
 #body {
     width: 100%;
+    height: 100%;
 }
+
+#content {
+    margin: 2.5em;
+    background-color:#414a59;
+    border-radius: 10px;
+    height: 80%;
+}
+
 /* - - - - - - - - - - - - - - - - - - - - 
 
 #horizontal_nav {
