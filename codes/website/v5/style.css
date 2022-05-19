@@ -50,6 +50,8 @@ body {
 #bar_info {
     background-color:#414a59;
     display: flex;
+    padding: auto;
+    height: 82px;
     justify-content: space-around;   
 }
 
@@ -63,10 +65,11 @@ body {
 }
 
 #content {
-    margin: 2.5em;
+    margin: 2em;
     background-color:#414a59;
     border-radius: 10px;
-    height: 80%;
+    padding: 1em;
+    height: 100%;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - 
