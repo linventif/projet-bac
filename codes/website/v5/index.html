@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="style.css" />        
         <title>Linventif ・ Projet Serre</title>
         <link rel="icon" type="image/x-icon" href="Images/linv_flavicon.ico">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     </head> 
 
     <body>
@@ -29,8 +30,59 @@
                 <h1>Temperature</h1>
                 <h1>Temperature</h1>
             </div>
-            <div id="content">
-                ///
+            <div id="culture_info">
+                <div class="info">
+                    <h1>Temperature</h1>
+                </div>
+                <div id="value">
+                    <div class="info">
+                        <h1>Valeur Actuelle : 32°C</h1>
+                    </div>
+                    <div class="info">
+                        <h1>Valeur Cible : 32°C</h1>
+                    </div>
+                </div>
+            </div>
+            <div id="graph">
+                <div id="nav_graph">
+                    123AZE
+
+                </div>
+                <div id="content_graph">
+                    ...
+                    <div><canvas id="myChart"></canvas></div>
+                       
+                    <script>
+                        const labels = [
+                          'January',
+                          'February',
+                          'March',
+                          'April',
+                          'May',
+                          'June',
+                        ];
+                      
+                        const data = {
+                          labels: labels,
+                          datasets: [{
+                            label: 'My First dataset',
+                            backgroundColor: 'rgb(255, 99, 132)',
+                            borderColor: 'rgb(255, 99, 132)',
+                            data: [0, 10, 5, 2, 20, 30, 45],
+                          }]
+                        };
+                      
+                        const config = {
+                          type: 'line',
+                          data: data,
+                          options: {}
+                        };
+                      </script>
+                      
+                       
+                      
+                       
+                </div>
             </div>
         </div>
         
@@ -39,7 +91,13 @@
 
             <div id="culture_info">
                 <h1>Temperature</h1>
+
+                
             </div>
+
+             <div id="info">
+                    
+                </div>
             
             <div id="horizontal_nav">
                 <h1>Temperature</h1>
@@ -52,19 +110,7 @@
             </div>
             
             <div id="content">
-                <div id="info">
-                    <div class="info">
-                        <h1>Temperature</h1>
-                    </div>
-                    <div id="value">
-                        <div class="info">
-                            <h1>Valeur Actuelle : 32°C</h1>
-                        </div>
-                        <div class="info">
-                            <h1>Valeur Cible : 32°C</h1>
-                        </div>
-                    </div>
-                </div>
+               
                 <div id="stats">
                     <div id="top">
                         ...
