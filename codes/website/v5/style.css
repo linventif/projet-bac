@@ -30,7 +30,7 @@ body {
 #serre {
     background-color: #8b70d7;
     height: auto;
-    padding-left: 2.5em;
+    text-align: center;
 }
 
 #button {
@@ -95,6 +95,24 @@ body {
     background-color:#6a7c99;
     height: 60px;
     border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#time {
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav_graph div h3 {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+#info_graph {
+    display: flex;
+    justify-content: space-around;
 }
 
 #content_graph {
