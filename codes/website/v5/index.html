@@ -6,7 +6,6 @@
         <link rel="stylesheet" href="style.css" />        
         <title>Linventif ・ Projet Serre</title>
         <link rel="icon" type="image/x-icon" href="Images/linv_flavicon.ico">
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     </head> 
 
     <body>
@@ -18,7 +17,7 @@
                 <a href="https://google.fr" class="button"><h2>Temperature</h2></a>
                 <a href="https://google.fr" class="button"><h2>Humidité</h2></a>
                 <a href="https://google.fr" class="button"><h2>Luminosité</h2></a>
-                <a href="https://google.fr" class="button"><h2>Méthéo</h2></a>
+                <a href="https://google.fr" class="button"><h2>Météo</h2></a>
                 <a href="https://google.fr" class="button"><h2>Allimentation</h2></a>
                 <a href="https://google.fr" class="button"><h2>Paramettre</h2></a>
             </div>
@@ -50,38 +49,6 @@
                 </div>
                 <div id="content_graph">
                     ...
-                    <div><canvas id="myChart"></canvas></div>
-                       
-                    <script>
-                        const labels = [
-                          'January',
-                          'February',
-                          'March',
-                          'April',
-                          'May',
-                          'June',
-                        ];
-                      
-                        const data = {
-                          labels: labels,
-                          datasets: [{
-                            label: 'My First dataset',
-                            backgroundColor: 'rgb(255, 99, 132)',
-                            borderColor: 'rgb(255, 99, 132)',
-                            data: [0, 10, 5, 2, 20, 30, 45],
-                          }]
-                        };
-                      
-                        const config = {
-                          type: 'line',
-                          data: data,
-                          options: {}
-                        };
-                      </script>
-                      
-                       
-                      
-                       
                 </div>
             </div>
         </div>

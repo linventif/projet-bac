@@ -36,7 +36,6 @@ body {
 #button {
     display: flex;
     flex-direction: column;
-    height: auto;
 }
 
 #button a {   
