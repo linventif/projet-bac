@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="style.css" />        
         <title>Linventif ・ Projet Serre</title>
         <link rel="icon" type="image/x-icon" href="Images/linv_flavicon.ico">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
     </head> 
 
     <body>
@@ -29,67 +30,7 @@
                     <h3 class="parameter">Paramettre</h3>                  
                 </div>
                 <div id="content_graph">
-                    ...
-                </div>
-                <div id="parameter_graph">
-                    <div id="time">
-                        <a href="https://google.fr" class="button"><h3>1j</h3></a>
-                        <a href="https://google.fr" class="button"><h3>7j</h3></a>
-                        <a href="https://google.fr" class="button"><h3>1m</h3></a>
-                        <a href="https://google.fr" class="button"><h3>1a</h3></a>
-                    </div>
-                </div>
-            </div>
-            <div id="graph">
-                <div id="nav_graph">                    
-                    <h3>Température</h3>
-                    <h3>Valeur Actuelle : 32°C</h3>
-                    <h3>Valeur Cible : 32°C</h3>
-                    <h3>Marge : 4°C</h3>  
-                    <h3 class="parameter">Paramettre</h3>                  
-                </div>
-                <div id="content_graph">
-                    ...
-                </div>
-                <div id="parameter_graph">
-                    <div id="time">
-                        <a href="https://google.fr" class="button"><h3>1j</h3></a>
-                        <a href="https://google.fr" class="button"><h3>7j</h3></a>
-                        <a href="https://google.fr" class="button"><h3>1m</h3></a>
-                        <a href="https://google.fr" class="button"><h3>1a</h3></a>
-                    </div>
-                </div>
-            </div>
-            <div id="graph">
-                <div id="nav_graph">                    
-                    <h3>Température</h3>
-                    <h3>Valeur Actuelle : 32°C</h3>
-                    <h3>Valeur Cible : 32°C</h3>
-                    <h3>Marge : 4°C</h3>  
-                    <h3 class="parameter">Paramettre</h3>                  
-                </div>
-                <div id="content_graph">
-                    ...
-                </div>
-                <div id="parameter_graph">
-                    <div id="time">
-                        <a href="https://google.fr" class="button"><h3>1j</h3></a>
-                        <a href="https://google.fr" class="button"><h3>7j</h3></a>
-                        <a href="https://google.fr" class="button"><h3>1m</h3></a>
-                        <a href="https://google.fr" class="button"><h3>1a</h3></a>
-                    </div>
-                </div>
-            </div>
-            <div id="graph">
-                <div id="nav_graph">                    
-                    <h3>Température</h3>
-                    <h3>Valeur Actuelle : 32°C</h3>
-                    <h3>Valeur Cible : 32°C</h3>
-                    <h3>Marge : 4°C</h3>  
-                    <h3 class="parameter">Paramettre</h3>                  
-                </div>
-                <div id="content_graph">
-                    ...
+                    <canvas id="temperature" width="100%" height="100%"></canvas>
                 </div>
                 <div id="parameter_graph">
                     <div id="time">
@@ -103,3 +44,20 @@
         </div>
     </body>
 </html>
+
+<script>
+    var ctx = document.getElementById('temperature').getContext('2d');        
+
+    var data 
+
+    var options
+
+    var config = {
+        type : "line",
+        data : data,
+        options : options
+    }
+    
+    var temperature = new Chart(ctx, config)
+
+</script>
